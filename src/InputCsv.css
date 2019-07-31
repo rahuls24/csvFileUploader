@@ -1,0 +1,104 @@
+.myDiv {
+  margin-top: 10px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1.5rem;
+  font: 1rem/1.5 "PT Sans", Arial, sans-serif;
+  color: #5a5a5a;
+}
+
+.card {
+  /*
+    -webkit-animation: cardEnter 0.75s ease-in-out 0.5s;
+    animation: cardEnter 0.75s ease-in-out 0.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    */
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  margin: 20px auto;
+  opacity: 1;
+  color: #000;
+  line-height: 49px;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+  font-size: 60px;
+}
+
+button {
+  font-size: 10px;
+  background-color: #cccccc;
+  color: #fff;
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+body,
+html {
+  height: 90%;
+}
+.outer {
+  width: 1px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  background: grey;
+  top: 30%;
+  box-shadow: 0px 0px 30px 20px grey;
+}
+
+.weather-card {
+  margin-top: 50;
+  height: 100px;
+  width: 1392px;
+  background: #99aaab;
+  box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.weather-card .top {
+  margin-top: 30;
+  position: relative;
+  height: 570px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #99aaab;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+.bc {
+  background-color: #f9dda4;
+  height: 570px;
+  width: 100%;
+}
+
+.knockout {
+  background: url(http://3p51xu2ahnwi24dngn3s4wgc.wpengine.netdna-cdn.com/wp-content/uploads/2011/11/DottedPath1.jpg) -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: arial, helvetica;
+  width: 600px;
+  text-align: center;
+}
